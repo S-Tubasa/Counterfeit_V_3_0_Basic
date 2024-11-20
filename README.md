@@ -21,7 +21,7 @@ wget https://huggingface.co/gsdf/Counterfeit-V3.0/resolve/main/Counterfeit-V3.0_
 ## Example
 ### LandScape
 ```bash
-time python websockets_api.py --mode 1 --prompt "
+time python main.py --mode 1 --prompt "
 cute angel" --save_path "./test.png"
 ```
 ```
@@ -32,7 +32,7 @@ sys     0m0.028s
 ```
 ### Portait
 ```bash
-time python websockets_api.py --mode 2 --prompt "
+time python main.py --mode 2 --prompt "
 cute angel" --save_path "./test.png"
 ```
 ```
